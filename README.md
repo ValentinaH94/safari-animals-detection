@@ -48,8 +48,7 @@ Addestrare un modello di object detection su immagini di animali safari, partend
 - 🔴 La zebra è la classe più problematica: 334 falsi negativi, probabilmente per via del pattern a strisce e della tendenza a stare in branco
 - ⚠️ La giraffa è gravemente sottorappresentata (solo il 2,1% del dataset)
 
-## 🔄 Versione 2 — In corso
-Per migliorare le performance sulla classe zebra ho aggiunto 200 nuove immagini da [questo dataset](https://universe.roboflow.com/yolo-3vcdi/zebra-detection-jpe9a) e sto riaddestando il modello. Risultati in arrivo!
+i risultati sono buoni,per poter ottimizzare al meglio qualche dato,in particolare la classe zebra,posso lavorare a una seconda versione!
 
 ## 🛠️ Strumenti
 - [Roboflow](https://roboflow.com)
@@ -57,7 +56,6 @@ Per migliorare le performance sulla classe zebra ho aggiunto 200 nuove immagini 
 
 ## 📈 Stato
 - 🟢 Versione 1 — completata (mAP 87,2%)
-- 🟡 Versione 2 — in addestramento
 
 ## 📝 Note
 Progetto didattico — sono ancora in fase di apprendimento. Qualsiasi feedback è benvenuto!
